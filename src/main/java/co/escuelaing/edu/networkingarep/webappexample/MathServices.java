@@ -10,5 +10,9 @@ package co.escuelaing.edu.networkingarep.webappexample;
  * @author Andrew
  */
 public class MathServices {
-    
+    @GetMapping("/suare")
+    public Double square(String n){
+        //Double number = Double.valueOf(n);
+        return 5.0 * 5.0;
+    }
 }
